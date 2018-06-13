@@ -5,7 +5,6 @@ Here is the R-code that assigns letter grades:
 
 # Program to assign letter grades to exam scores for a 100 points exam. Program takes as imput a vector containing scores in the range 0 to 100.
 
-
 grade_function <-function(x){
   if(x > 100 | x < 0){
     print("Score if out of range. Please enter a score in range [0,100]")
